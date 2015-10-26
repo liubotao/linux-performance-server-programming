@@ -8,7 +8,7 @@
     
 ### 调整TCP参数
 
-      $vim ／etc/sysct1.conf
+    $vim ／etc/sysct1.conf
         
 	net.ipv4.tcp_fin_timeout = 30
 	net.ipv4.tcp_keepalive_time = 1200
@@ -19,7 +19,7 @@
 	net.ipv4.tcp_max_syn_baklog = 8192
 	net.ipv4.tcp_max_tw_bukets = 5000
 	
-     $ /sbin/sysctl -p
+    $ /sbin/sysctl -p
 
 
 ##备注

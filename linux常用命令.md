@@ -35,6 +35,8 @@
    
 ### 网络命令行(CURL)
 
+英文全称为Client URL Library Functions 使用 URL 语法传输数据的命令行工具,客户端向服务器请求资源的工具
+
 示例1:查看网站CSS是否开启GZIP压缩
 
     curl -I -H "Accept-Encoding: gzip, deflate" "xxx/style.css"

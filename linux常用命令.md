@@ -33,7 +33,7 @@
     $ tar -zxvf /tmp/etc.tar.gz 
  
    
-## CURL网络命令行
+### CURL网络命令行
 
 示例1:查看网站CSS是否开启GZIP压缩
 curl -I -H "Accept-Encoding: gzip, deflate" "xxx/style.css"

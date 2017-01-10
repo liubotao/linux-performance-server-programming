@@ -18,9 +18,7 @@
 
 ```
 # /etc/security/limits.conf
-
 * soft core unlimited
-
 ```
 
 修改core文件保存的路径

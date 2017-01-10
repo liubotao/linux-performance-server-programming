@@ -8,9 +8,9 @@
 
 ### 3、开启core dump
 
-　　可以使用命令ulimit开启，也可以在程序中通过setrlimit系统调用开启。
+可以使用命令ulimit开启，也可以在程序中通过setrlimit系统调用开启。
 
-*  打开 core dump功能
+打开 core dump功能
 * 在终端中输入命令ulimit -c,如果输出结果为0，说明默认是关闭core dump的，即当程序异常终止时，也不会生出core dump文件
 * 我们可以使用命令ulmit -c unlimited 来开启core dump功能，并且不限制core dump的大小，如果限制文件的大小，将unlimited改成你想生成core
   文件的大小，注意单位为KB
